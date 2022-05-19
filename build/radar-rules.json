@@ -361,6 +361,48 @@
       }
     ]
   },
+  "9to5toys.com": {
+    "_name": "9to5",
+    ".": [
+      {
+        "title": "Toys 分站",
+        "docs": "https://docs.rsshub.app/new-media.html#_9to5",
+        "source": [
+          "/",
+          "/guides/:tag"
+        ],
+        "target": "/9to5/toys/:tag?"
+      }
+    ]
+  },
+  "9to5mac.com": {
+    "_name": "9to5",
+    ".": [
+      {
+        "title": "Mac 分站",
+        "docs": "https://docs.rsshub.app/new-media.html#_9to5",
+        "source": [
+          "/",
+          "/guides/:tag"
+        ],
+        "target": "/9to5/mac/:tag?"
+      }
+    ]
+  },
+  "9to5google.com": {
+    "_name": "9to5",
+    ".": [
+      {
+        "title": "Google 分站",
+        "docs": "https://docs.rsshub.app/new-media.html#_9to5",
+        "source": [
+          "/",
+          "/guides/:tag"
+        ],
+        "target": "/9to5/google/:tag?"
+      }
+    ]
+  },
   "aamacau.com": {
     "_name": "論盡媒體 AllAboutMacau Media",
     ".": [
@@ -479,6 +521,43 @@
         "source": [
           "/m/brand"
         ]
+      }
+    ]
+  },
+  "aliyun.com": {
+    "_name": "阿里云",
+    "developer": [
+      {
+        "title": "开发者社区 - 主题",
+        "docs": "https://docs.rsshub.app/programming.html#a-li-yun",
+        "source": [
+          "/group/:type"
+        ],
+        "target": "/aliyun/developer/group/:type"
+      }
+    ],
+    "help": [
+      {
+        "title": "公告",
+        "docs": "https://docs.rsshub.app/programming.html#a-li-yun",
+        "source": [
+          "/noticelist/:type",
+          "/"
+        ]
+      }
+    ]
+  },
+  "taobao.org": {
+    "_name": "阿里云",
+    "mysql": [
+      {
+        "title": "数据库内核月报",
+        "docs": "https://docs.rsshub.app/programming.html#a-li-yun",
+        "source": [
+          "/monthly",
+          "/"
+        ],
+        "target": "/aliyun/database_month"
       }
     ]
   },
@@ -2392,6 +2471,34 @@
           "/blog/inside-eagle"
         ],
         "target": "/eagle/blog/inside-eagle/en"
+      }
+    ]
+  },
+  "ac.cn": {
+    "_name": "地震速报",
+    "www.ceic": [
+      {
+        "title": "中国地震台",
+        "docs": "https://docs-rsshub.pages.dev/forecast.html#di-zhen-su-bao",
+        "source": [
+          "/speedsearch",
+          "/"
+        ],
+        "target": "/earthquake/ceic"
+      }
+    ]
+  },
+  "cea.gov.cn": {
+    "_name": "地震速报",
+    "www": [
+      {
+        "title": "中国地震局",
+        "docs": "https://docs-rsshub.pages.dev/forecast.html#di-zhen-su-bao",
+        "source": [
+          "/cea/xwzx/zqsd/index.html",
+          "/"
+        ],
+        "target": "/earthquake"
       }
     ]
   },
@@ -6615,6 +6722,26 @@
       }
     ]
   },
+  "mobilism.org": {
+    "_name": "Mobilism",
+    ".": [
+      {
+        "title": "论坛",
+        "docs": "https://docs.rsshub.app/bbs.html#mobilism",
+        "source": "/"
+      },
+      {
+        "title": "门户",
+        "docs": "https://docs.rsshub.app/bbs.html#mobilism",
+        "source": "/portal.php"
+      },
+      {
+        "title": "电子书",
+        "docs": "https://docs.rsshub.app/reading.html#mobilism",
+        "source": "/"
+      }
+    ]
+  },
   "mohw.gov.tw": {
     "_name": "台灣衛生福利部",
     ".": [
@@ -9417,6 +9544,35 @@
       }
     ]
   },
+  "usts.edu.cn": {
+    "_name": "苏州科技大学",
+    "jwch": [
+      {
+        "title": "教务动态",
+        "docs": "https://docs.rsshub.app/university.html#su-zhou-ke-ji-da-xue",
+        "source": [
+          "/jwdt.htm"
+        ],
+        "target": "/wsts/jwch/jwdt"
+      },
+      {
+        "title": "公告在线",
+        "docs": "https://docs.rsshub.app/university.html#su-zhou-ke-ji-da-xue",
+        "source": [
+          "/ggzx.htm"
+        ],
+        "target": "/wsts/jwch/ggzx"
+      },
+      {
+        "title": "选课通知",
+        "docs": "https://docs.rsshub.app/university.html#su-zhou-ke-ji-da-xue",
+        "source": [
+          "/xktz.htm"
+        ],
+        "target": "/wsts/jwch/xktz"
+      }
+    ]
+  },
   "baden-wuerttemberg.de": {
     "_name": "Constitutional Court of Baden-Württemberg (Germany)",
     "verfgh": [
@@ -10045,6 +10201,19 @@
           "/"
         ],
         "target": "/yaohuo"
+      }
+    ]
+  },
+  "yomiuri.co.jp": {
+    "_name": "読売新聞",
+    "www": [
+      {
+        "title": "読売新聞",
+        "docs": "https://docs.rsshub.app/traditional-media.html#du-mai-xin-wen",
+        "source": [
+          "/:category"
+        ],
+        "target": "/yomiuri/:category"
       }
     ]
   },

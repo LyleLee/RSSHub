@@ -90,6 +90,9 @@
     "/95mm/category/:category": [
         "nczitzk"
     ],
+    "/9to5/9to5/:subsite/:tag?": [
+        "HenryQW"
+    ],
     "/aamacau/aamacau/:category?/:id?": [
         "nczitzk"
     ],
@@ -116,6 +119,15 @@
     ],
     "/ajmide/:id": [
         "Fatpandac"
+    ],
+    "/aliyun/database_month": [
+        "junbaor"
+    ],
+    "/aliyun/developer/group/:type": [
+        "umm233"
+    ],
+    "/aliyun/notice/:type?": [
+        "muzea"
     ],
     "/ally/rail/:category?/:topic?": [
         "Rongronggg9"
@@ -594,6 +606,12 @@
     ],
     "/eagle/changelog/:language?": [
         "tigercubden"
+    ],
+    "/earthquake/ceic/:type?": [
+        "SettingDust"
+    ],
+    "/earthquake/:region?": [
+        "LogicJake"
     ],
     "/eastday/24/:category?": [
         "nczitzk"
@@ -1403,6 +1421,12 @@
     "/miris/blog": [
         "chazeon"
     ],
+    "/mobilism/forums/:category/:type/:fulltext?": [
+        "nitezs"
+    ],
+    "/mobilism/portal/:type/:fulltext?": [
+        "nitezs"
+    ],
     "/mohw/clarification": [
         "nczitzk"
     ],
@@ -2178,6 +2202,9 @@
     "/ustc/sist/:type?": [
         "jasongzy"
     ],
+    "/usts/juch/:type?": [
+        "Fatpandac"
+    ],
     "/verfghbw/press/:keyword?": [
         "quinn-dev"
     ],
@@ -2345,6 +2372,9 @@
     ],
     "/yaohuo/": [
         "nczitzk"
+    ],
+    "/yomiuri/yomiuri/:category?": [
+        "Arracc"
     ],
     "/youku/channel/:channelId/:embed?": [
         "xyqfer",
@@ -2681,8 +2711,6 @@
     "/hopper/:lowestOnly/:from/:to?": [],
     "/mafengwo/note/:type": [],
     "/mafengwo/ziyouxing/:code": [],
-    "/earthquake/:region?": [],
-    "/earthquake/ceic/:type": [],
     "/novel/biquge/:id": [],
     "/novel/biqugeinfo/:id/:limit?": [],
     "/novel/uukanshu/:uid": [],
@@ -2925,7 +2953,6 @@
     "/udn/global/:tid": [],
     "/gitea/blog": [],
     "/idownloadblog": [],
-    "/9to5/:subsite/:tag?": [],
     "/testerhome/newest": [],
     "/weseepro/newest": [],
     "/weseepro/newest-direct": [],
@@ -3258,9 +3285,6 @@
     "/socialclub/events/:game?": [],
     "/ctfhub/upcoming/:limit?": [],
     "/ctfhub/search/:limit?/:form?/:class?/:title?": [],
-    "/aliyun/database_month": [],
-    "/aliyun/notice/:type?": [],
-    "/aliyun/developer/group/:type": [],
     "/liwushuo/index": [],
     "/storyfm/index": [],
     "/chinadaily/english/:category": [],
@@ -3635,7 +3659,6 @@
     "/law/jh": [],
     "/law/dh": [],
     "/law/jctd": [],
-    "/mobilism/release": [],
     "/samsungmembers/latest": [],
     "/dgjyw/:type": [],
     "/gov/caict/bps": [],
@@ -3786,7 +3809,6 @@
     "/weforum/report/:lang?/:year?/:platform?": [],
     "/nobelprize/:caty?": [],
     "/gov/taiwan/mnd": [],
-    "/yomiuri/:category": [],
     "/npc/:caty": [],
     "/ofweek/news": [],
     "/popyard/:caty?": [],
