@@ -4172,6 +4172,16 @@
       }
     ]
   },
+  "booru.org": {
+    "_name": "Booru",
+    "mmda": [
+      {
+        "title": "MMDArchive 标签查询",
+        "docs": "https://docs.rsshub.app/routes/picture#booru-mmdarchive-biao-qian-cha-xun",
+        "source": "/index.php"
+      }
+    ]
+  },
   "brave.com": {
     "_name": "Brave",
     ".": [
@@ -9300,6 +9310,43 @@
       }
     ]
   },
+  "farmatters.com": {
+    "_name": "Farmatters",
+    ".": [
+      {
+        "title": "Viewpoint",
+        "docs": "https://docs.rsshub.app/routes/new-media#farmatters-viewpoint",
+        "source": [
+          "/news"
+        ],
+        "target": "/farmatters/news"
+      },
+      {
+        "title": "Exclusive",
+        "docs": "https://docs.rsshub.app/routes/new-media#farmatters-exclusive",
+        "source": [
+          "/exclusive"
+        ],
+        "target": "/farmatters/exclusive"
+      },
+      {
+        "title": "Tag",
+        "docs": "https://docs.rsshub.app/routes/new-media#farmatters-tag",
+        "source": [
+          "/tag/:id",
+          "/:locale/tag/:id"
+        ]
+      },
+      {
+        "title": "Wiki",
+        "docs": "https://docs.rsshub.app/routes/new-media#farmatters-wiki",
+        "source": [
+          "/wiki"
+        ],
+        "target": "/farmatters/wiki"
+      }
+    ]
+  },
   "fastbull.cn": {
     "_name": "法布财经",
     ".": [
@@ -10347,6 +10394,19 @@
       }
     ]
   },
+  "gogoanimehd.io": {
+    "_name": "Gogoanime",
+    "developer": [
+      {
+        "title": "Recent Releases",
+        "docs": "https://docs.rsshub.app/routes/anime#gogoanimehd",
+        "source": [
+          "/"
+        ],
+        "target": "/gogoanimehd/recent-releases"
+      }
+    ]
+  },
   "good.news": {
     "_name": "Good.news",
     ".": [
@@ -10833,6 +10893,15 @@
         ],
         "target": "/gov/chongqing/sydwgkzp"
       }
+    ],
+    "gzw": [
+      {
+        "title": "国有资产监督管理委员会",
+        "docs": "https://docs.rsshub.app/routes/government#chong-qing-shi-ren-min-zheng-fu-guo-you-zi-chan-jian-du-guan-li-wei-yuan-hui",
+        "source": [
+          "/:category*"
+        ]
+      }
     ]
   },
   "csrc.gov.cn": {
@@ -11241,6 +11310,19 @@
         "source": [
           "/*path"
         ]
+      }
+    ]
+  },
+  "npc.gov.cn": {
+    "_name": "中国人大网",
+    ".": [
+      {
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/routes/government#zhong-guo-ren-da-wang",
+        "source": [
+          "/npc/c2/:caty"
+        ],
+        "target": "/gov/npc/:caty"
       }
     ]
   },
@@ -11706,6 +11788,19 @@
       }
     ]
   },
+  "grubstreet.com": {
+    "_name": "Grub Street",
+    ".": [
+      {
+        "title": "Posts",
+        "docs": "https://docs.rsshub.app/routes/new-media#grub-street",
+        "source": [
+          "/"
+        ],
+        "target": "/grubstreet"
+      }
+    ]
+  },
   "guancha.cn": {
     "_name": "观察者网",
     ".": [
@@ -12039,6 +12134,19 @@
         "source": [
           "/:profile"
         ]
+      }
+    ]
+  },
+  "hackyournews.com": {
+    "_name": "HackYourNews",
+    ".": [
+      {
+        "title": "Index",
+        "docs": "https://docs.rsshub.app/routes/programming#hack-your-news",
+        "source": [
+          "/"
+        ],
+        "target": "/hackyournews"
       }
     ]
   },
@@ -18313,6 +18421,20 @@
       }
     ]
   },
+  "mymusicsheet.com": {
+    "_name": "MyMusicSheet",
+    ".": [
+      {
+        "title": "User Sheets",
+        "docs": "https://docs.rsshub.app/routes/shopping#mymusicsheet-user-sheets",
+        "source": [
+          ":username/*",
+          "/:username"
+        ],
+        "target": "/mymusicsheet/user/sheets/:username"
+      }
+    ]
+  },
   "mysql.com": {
     "_name": "MySQL",
     "dev": [
@@ -18565,6 +18687,19 @@
           "/tzgg.htm",
           "/"
         ]
+      }
+    ]
+  },
+  "netflav.com": {
+    "_name": "Netflav",
+    ".": [
+      {
+        "title": "Index",
+        "docs": "https://docs.rsshub.app/multimedia#netflav",
+        "source": [
+          "/"
+        ],
+        "target": "/netflav"
       }
     ]
   },
@@ -24993,12 +25128,21 @@
     ".": [
       {
         "title": "价格",
-        "docs": "https://docs.rsshub.app/routes/shopping#te-si-la-zhong-guo",
+        "docs": "https://docs.rsshub.app/routes/shopping#te-si-la-zhong-guo-jia-ge",
         "source": [
           "/model3/design",
           "/"
         ],
         "target": "/tesla/price"
+      }
+    ],
+    "cx": [
+      {
+        "title": "权益中心",
+        "docs": "https://docs.rsshub.app/routes/shopping#te-si-la-zhong-guo-quan-yi-zhong-xin",
+        "source": [
+          "/user-right/list/:category"
+        ]
       }
     ]
   },
@@ -27721,6 +27865,35 @@
       }
     ]
   },
+  "x-mol.com": {
+    "_name": "X-MOL",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/study#x-mol",
+        "source": [
+          "/news/:area/tag/:tag"
+        ],
+        "target": "/x-mol/news/:tag"
+      },
+      {
+        "title": "News Index",
+        "docs": "https://docs.rsshub.app/study#x-mol",
+        "source": [
+          "/news/index"
+        ],
+        "target": "/x-mol/news"
+      },
+      {
+        "title": "Journal",
+        "docs": "https://docs.rsshub.app/journal#x-mol",
+        "source": [
+          "/paper/:area/tag/:type/journal/:magazine"
+        ],
+        "target": "/x-mol/paper/geo/:type/:magazine"
+      }
+    ]
+  },
   "x6d.com": {
     "_name": "小刀娱乐网",
     "xd": [
@@ -29041,11 +29214,12 @@
     ],
     "analy": [
       {
-        "title": "TOP 20",
+        "title": "上周热门 TOP 20",
         "docs": "https://docs.rsshub.app/routes/blog#zhu-bai",
         "source": [
           "/"
-        ]
+        ],
+        "target": "/zhubai/top20"
       }
     ]
   },
